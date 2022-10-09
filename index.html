@@ -1,12 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>
-        Hello World! 
-    </title>
-    What's Up
-  </head>
-  <body>
-    Anybody? 
-  </body>
+
+
+<head>
+  <title>
+    Hello World!
+  </title>
+  <meta charset="utf-8" />
+  <meta name="Zixian Wang" content="This is Lab 2 of CSE 110" />
+  <link rel="icon" type="image/png" href="qq-favicon.png" sizes="16x16" />
+</head>
+
+
+
+
+<body>
+
+
+  <header class="page-header">
+    <h1 class="page-header">
+      Meeting Minutes
+    </h1>
+  </header>
+
+
+
+
+  <main class="main-content">
+
+    <h3 class="main-content">
+      This webpage is intended to demonstrate all contents covered on Week 2 meeting time.
+    </h3>
+    <hr>
+    <!--     
+    <ol>
+      <li class="crumb"><a href="#page-header">Bikes</a></li>
+      <li class="crumb"><a href="#">BMX</a></li>
+      <li class="crumb">Jump Bike 3000</li>
+    </ol> -->
+
+  </main>
+
+
+  <section class="nav-site">
+    <b>
+      Topics Covered Today
+    </b>
+
+
+    <nav class="content">
+
+
+      <ol>
+        <li>
+          <a href="#check-ins"> Check-in Name List</a>
+        </li>
+
+        <li> <a href="#brainstorm"> Brainstorm </a> </li>
+
+        <li> <a href="#meeting detail"> Meeting Detail </a> </li>
+
+        <li> <a href="#group picture"> Group Picture </a> </li>
+
+        <li> <a href="#recording"> Recording </a> </li>
+
+        <li> <a href="#audio"> Audio </a> </li>
+      </ol>
+    </nav>
+
+  </section>
+  <hr>
+
+
+  <section class="check-ins" id="check-ins">
+    <h2>
+      Check-in Name List
+    </h2>
+    <h4 class="check-ins-arrive">
+      Arrived
+    </h4>
+    <ul class="check-ins-arrive">
+      <li> Alphacondo </li>
+      <li> Bravolunal </li>
+      <li> Condiova </li>
+      <li> Dog </li>
+      <li> Elephant </li>
+    </ul>
+    <br>
+    <h4 class="check-ins-noarrive">
+      Disappeared
+    </h4>
+    <ul class="check-ins-noarrive">
+      <li> Frick </li>
+      <li> GG </li>
+      <li> Hola </li>
+    </ul>
+  </section>
+  <hr>
+  <section class="brainstorm" id="brainstorm">
+    <h2>
+      Brainstorm
+    </h2>
+
+    <ol>
+      <li> Website </li>
+      <ol type="a">
+        <li>HTML</li>
+        <li>SCC</li>
+        <li>JS</li>
+      </ol>
+
+    </ol>
+
+  </section>
+  <hr>
+
+  <section class="meeting detail" id="meeting detail">
+    <h2>
+      Meeting Detail
+    </h2>
+
+    <strong> Meeting Time</strong>
+    <p>
+      Today was the first meeting of our group. TA was here to represent the detail of the team.
+      Group meetings are preffered twice a week, and a group stand-up is required everyday to update
+      everyone's progress. Weekly meeting will be bound to every Friday at 2:00 PM at Wong's library.
+      People who are absent will be recorded. Two absences will need to have a talk with the team learder. <br>
+
+      2:00 PM at Wong's library
+    </p>
+
+    <strong> Experiment</strong>
+    <div>
+      <p>
+        UCSD comes with all kinds of different creatuers.
+        <em> Students, TAs, Tutors, Professors, Staff, etc </em>. You name it!
+      </p>
+    </div>
+
+    <strong> Process </strong>
+    <p>Add the
+      <span class="ingredient"><i>basil </i> </span>,
+      <span class="ingredient"><i>pine nuts</i></span>
+      and
+      <span class="ingredient"><i>garlic</i></span>
+      to a blender and blend into a paste.
+    </p>
+  </section>
+  <hr>
+
+
+  <section class="group picture" id="group picture">
+    <h2> Group Picture </h2>
+    <img class="group pic" src="Big_Tech_CEOs.png" width="800">
+
+  </section>
+
+  <section class="recording" id="recording">
+    <h2> Recording </h2>
+    <video controls recording width="640">
+      <source src="ucsd_campus_video.mov">
+    </video>
+  </section>
+  <hr>
+
+
+  <section class="audio" id="audio">
+    <h2> Audio </h2>
+    <audio controls>
+      <source src="organic_apple.mp3">
+    </audio>
+    <br>
+    <br>
+    <details>
+      <summary> You know what this is? </summary>
+      Details!
+    </details>
+
+  </section>
+  <hr>
+
+  <section class="information" id="information">
+    <h2> Group Account Login </h2>
+
+    <form action="hello.html" method="get">
+      <fieldset>
+        <div class="form-example">
+          <label for="username"> Enter your UCSD username:</label><br>
+          <input type="text" name="username" id="username" required>
+        </div>
+
+        <div class="form-example">
+          <label for="password"> Enter your password: </label> <br>
+          <input type="password" name="password" id="password" required>
+        </div>
+
+        <div class="form-example">
+          <p> Select your login VPN location </p>
+          <input type="radio" name="location" id="location-us" required>
+          <label for="location-us"> U.S. </label>
+          <br>
+          <input type="radio" name="location" id="location-uk" required>
+          <label for="location-uk"> U.K. </label>
+          <br>
+          <input type="radio" name="location" id="location-fr" required>
+          <label for="location-fr"> France </label>
+          <br>
+          <input type="radio" name="location" id="location-cn" required>
+          <label for="location-cn"> China </label>
+          <br>
+          <input type="radio" name="location" id="location-in" required>
+          <label for="location-in"> India </label>
+        </div>
+        <br>
+        <div class="form-example">
+          <label for="appt"> Enter your time in your time zone </label>
+          <br>
+          <input type="time" id="appt" name="appt" min="9:00" max="18:00" required>
+        </div>
+        <br>
+
+        <div class="form-example">
+          <label for="description"> Describe the reason you login </label>
+          <br>
+          <textarea id="description" name="description" rows="5" cols="20" required> </textarea>
+        </div>
+        <br>
+
+        <div class="form-example">
+          <label for="agent"> Choose your intermediate agent to connect </label>
+          <br>
+          <input id="agent" name="id" list="agent-list" required>
+          <datalist id="agent-list">
+            <option value="001">
+            <option value="002">
+            <option value="003">
+            <option value="004">
+            <option value="005">
+            <option value="006">
+            <option value="007">
+          </datalist>
+        </div>
+        <br>
+
+        <div class="form-example">
+          <label for="encrypt"> Whether to go encrypt</label>
+          <select name="encrypt-option" id="encrypt" required>
+            <option value="encrypt"> Encrypt </option>
+            <option value="not-encrypt"> Not encrypt </option>
+          </select>
+        </div>
+
+        <br>
+        <button class="secret" type="button">
+          Varify your identity
+        </button>
+        <br> 
+        <br> 
+        <input type="submit" value="Login">
+        <br>
+
+      </fieldset>
+    </form>
+
+  </section>
+
+
+
+  <article>
+
+  </article>
+  <footer class="foot-note">
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <p> Copy right of UCSD CSE 103 of CSE Department</p>
+  </footer>
+</body>
+
 </html>
