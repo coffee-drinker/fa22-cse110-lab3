@@ -19,8 +19,24 @@ h4 {
 }
 
 
+* {
+    background-color: beige;
+}
+
 body {
     background-color: beige;
+}
+
+a[href] {
+    color: red;
+}
+
+li~li {
+    color: red;
+}
+
+ol+li {
+    color: red;
 }
 
 .page-header {
@@ -173,13 +189,15 @@ li:active {
     /* height: 70px; */
 }
 
-.no1 {
+
+
+.no1, .no5 {
+    flex-shrink: 0;
+}
+.no2 {
     flex-grow: 0;
 }
 
-.no5 {
-    flex-shrink: 0;
-}
 
 .aaaa { grid-area: tl;}
 .bbbb { 
