@@ -86,7 +86,9 @@ body {
     border-bottom-style: dotted; 
     border-bottom-width: 3px;
     border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 30px; 
 
-    
+    text-decoration: line-through;
+    text-align: left;
+    color: red;
 }
