@@ -1,6 +1,6 @@
 # Standup Template
 
-** Date today**
+**Date today**
 02-12-2022
 
 **What did I worked on yesteryday**
