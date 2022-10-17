@@ -36,6 +36,57 @@ body {
     height: 3in;
     font-size: 1.2rem;
     /* text-indent: 45vw; */
-    margin-left: 400px;
+    margin-left: 500px;
     line-height: 30pt;
+}
+
+.check-ins {
+    width: 100vw;
+    height: 4in;
+    border-style: dashed;
+    border-color: aqua;
+    border-width: 5px;
+    border-radius: 30px;
+    background-color: blanchedalmond;
+}
+
+.check-ins-arrive {
+    margin-left: 17vw;
+    margin-right: 0vw;
+}
+.check-ins-arrive-hd {
+    /* margin-left: 20vw;
+    margin-right: 0vw; */
+    /* padding-left: 20%;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm; */
+    padding: 0.5cm 0 0.5cm 20% 
+}
+
+.check-ins-noarrive {
+    margin: 2vh 0 0 70vw; 
+    /* margin-left: 60vw; */
+    /* margin-top: -0vh; */
+}
+.check-ins-noarrive-hd {
+    margin: -5.8cm 0 0 0vw; 
+    padding-left: 70%;
+    padding-top: -5cm;
+    padding-bottom: 0.5cm;
+}
+
+.brainstorm {
+    border-top-color: #FF0FF0;
+    border-top-style: dotted; 
+    border-top-width: 3px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    border-bottom-color: #FF0FF0;
+    border-bottom-style: dotted; 
+    border-bottom-width: 3px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    
 }
