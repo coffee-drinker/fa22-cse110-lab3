@@ -141,3 +141,13 @@ span.garlic {
 .meeting_detail {
     font-family: NotoFont;
 }
+
+li:hover {
+    font-size: 1cm;
+    
+    color: #FF0FF0;
+}
+
+li:active {
+    color:rgb(88, 176, 0)
+}
