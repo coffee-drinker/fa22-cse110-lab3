@@ -92,3 +92,16 @@ body {
     text-align: left;
     color: red;
 }
+
+span.basil {
+    background-color: aquamarine;
+    display: inline-block;
+}
+
+span.garlic {
+    background-color: orange;
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-align: center; 
+}
