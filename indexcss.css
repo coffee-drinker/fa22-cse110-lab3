@@ -1,5 +1,10 @@
 /* hello */
 
+@font-face {
+    font-family: "NotoFont";
+    src: url("NotoFont.ttf");
+}
+
 h1 {
     color:red; 
 }
@@ -131,4 +136,8 @@ span.garlic {
     position:relative; 
     top: 5mm;
     left: 5mm;
+}
+
+.meeting_detail {
+    font-family: NotoFont;
 }
