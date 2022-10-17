@@ -108,3 +108,27 @@ span.garlic {
     max-height: 200px;
     text-align: center; 
 }
+
+.experiment {
+    display: block;
+    color: #FF0FF0;
+    width: 20cm;
+    height: 3cm;
+    background-color: antiquewhite;
+}
+
+#students {
+    position: static;
+    top: 100px;
+    bottom: 10px;
+    width: auto;
+    background: blue;
+}
+
+#ta {
+    display: inline-block;
+    background-color: rgb(86, 187, 140);
+    position:relative; 
+    top: 5mm;
+    left: 5mm;
+}
